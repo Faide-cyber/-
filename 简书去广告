@@ -1,0 +1,50 @@
+// ==UserScript==
+// @name         简书去广告
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       Faide-cyber
+// @match        https://www.jianshu.com/p/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=jianshu.com
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Your code here...
+
+    window.onload=function(){
+
+    console.log(document.querySelectorAll("._3Z3nHf"))
+        document.querySelector("._2OwGUo").remove()
+        document.querySelector(".rEsl9f").remove()//去作者
+        document.querySelector("._3Pnjry").remove()//去左侧按钮
+        document.querySelector("._2oDcyf").remove()//去导航栏
+        document.querySelector(".VYwngI").remove()//去导航栏
+        document.querySelector("._2xr8G8").remove()//去底部评论
+
+
+        console.log(document.querySelectorAll("._2gV0VG"))
+       // document.querySelector("._11TSfs").remove()
+
+        setTimeout(function(){
+
+
+        },3000)
+
+        setTimeout(function(){
+        document.querySelector("._2gV0VG").parentElement.remove()
+        document.querySelector("._1iTR78").parentElement.remove()
+           // document.querySelector("._11TSfs").remove()
+        //console.log(document.querySelector("._13lIbp"))
+        document.querySelector("._13lIbp").nextElementSibling.remove()//去二维码下面的作者信息
+        document.querySelector("._13lIbp").remove()//去二维码
+        var a=document.querySelector("#note-page-comment").previousElementSibling
+        a.nextElementSibling.remove()
+        a.previousElementSibling.remove()
+        a.remove()
+        },1000)
+}
+    
+})();
