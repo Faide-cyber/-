@@ -1,13 +1,11 @@
 # 爱调研及问卷网自动化脚本
 
 
-
-
 ![Static Badge](https://img.shields.io/badge/%40Github-Faide-%2300FFFF) ![Static Badge](https://img.shields.io/badge/PlatForm-Windows-%238c37dc) ![Static Badge](https://img.shields.io/badge/Version-1.0.0-%23e87435) ![Static Badge](https://img.shields.io/badge/License-GNU3.0-%2314bbc1)
 
 ## 关于
 
-此脚本是作者在大一Java学习期间，利用前端JavaScript进行油猴脚本的开发，实现了对问卷网问卷的自动填充。通过这个脚本，用户可以方便地完成各类在线问卷调查，节省时间，提高效率。
+Questionnaire-network-Automation-Script是作者在大一Java学习期间，利用前端JavaScript进行油猴脚本的开发，实现了对问卷网问卷的自动填充。通过这个脚本，用户可以方便地完成各类在线问卷调查，节省时间，提高效率。
 
 
 ## 安装
@@ -39,7 +37,7 @@
 
 ## 免责声明
 
-爱调研及问卷网自动化脚本（以下简称“本项目”）仅供学习和研究使用，禁止将其用于任何非法用途。如果您选择使用本项目的任何部分，您必须遵守所有相关法律和规定，并承担由此产生的所有责任。
+Questionnaire-network-Automation-Script（以下简称“本项目”）仅供学习和研究使用，禁止将其用于任何非法用途。如果您选择使用本项目的任何部分，您必须遵守所有相关法律和规定，并承担由此产生的所有责任。
 
 作者不对因使用本项目而导致的任何损失或损害负责。如果您选择使用本项目的任何部分，您应该自己承担所有风险和责任。
 
@@ -51,7 +49,7 @@
 
 ## 附加信息
 
-最新的源代码和文档可在以下网址获得： https://github.com/Faide-cyber/MouseCopy
+最新的源代码和文档可在以下网址获得： [https://github.com/Faide-cyber/Questionnaire-network-Automation-Script](https://github.com/Faide-cyber/Questionnaire-network-Automation-Script)
 
 ## 联系方式
 
