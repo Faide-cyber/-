@@ -7,7 +7,8 @@
 
 Questionnaire-network-Automation-Script是作者在大一Java学习期间，利用前端JavaScript进行油猴脚本的开发，实现了对问卷网问卷的自动填充。通过这个脚本，用户可以方便地完成各类在线问卷调查，节省时间，提高效率。
 ![爱调研.gif](https://github.com/Faide-cyber/Questionnaire-network-Automation-Script/blob/main/%E7%88%B1%E8%B0%83%E7%A0%94.gif?raw=true)
-![图片描述](https://github.com/Faide-cyber/Questionnaire-network-Automation-Script/blob/main/demo1.png)
+![demo1](https://github.com/Faide-cyber/Questionnaire-network-Automation-Script/blob/main/demo1.png)![demo2](https://github.com/Faide-cyber/Questionnaire-network-Automation-Script/blob/main/demo2.png)
+
 
 ## 安装
 
@@ -60,4 +61,5 @@ Questionnaire-network-Automation-Script（以下简称“本项目”）仅供�
 如果您有任何问题或疑问，也可以通过提交issue的方式与我进行交流。
 
 在提交issue时，请确保描述清楚您的问题或反馈，并提供足够的上下文信息，以便我能够更好地理解和回答您的问题。
+
 ![QQ图片202310251908231](https://github.com/Faide-cyber/MouseCopy/assets/148406475/8b7ac122-d438-4d64-b6d0-330b514e4389)
