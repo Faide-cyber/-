@@ -1,0 +1,45 @@
+// ==UserScript==
+// @name         爱调研
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       Faide-cyber
+// @match        https://www.idiaoyan.com/desktop/task
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=idiaoyan.com
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    // Your code here...
+
+
+    window.addEventListener("load", function(event) {
+        setTimeout(function(){//0.5s后再进行登录
+            var tasklist=document.querySelector(".list_content").children;
+            var arr=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            //console.log(tasklist)
+            for(var i=0;i<tasklist.length-2;i++){
+                var str=tasklist[i].querySelector(".naire_title").innerText
+                var score=Number(tasklist[i].querySelector(".price").children[1].innerText)
+
+                if(str.substring(2,5)!="调研X"&&score==40){
+                    arr[i]=1
+                }else{
+                }
+            }//for循环遍历结束
+                console.log(arr)
+                for(let c=0;c<arr.length;c++){
+                    if(arr[c]==1){
+                      setTimeout(function(){
+                    tasklist[c].click()
+                       },(c+1)*700);//for循环执行的太快可能会导致打开同一个页面
+                    }
+                }
+            setTimeout(function(){
+                location.reload();
+            },30000);
+        },3000);//等框架加载
+    });
+
+})();
